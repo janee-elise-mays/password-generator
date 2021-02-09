@@ -20,14 +20,3 @@ function writePassword() {
               
             passwordFiled.value = password; 
         } 
-  // var passwordText = document.querySelector("#password");
-
-  // passwordText.value = password;
-
-// }
-
-// Add event listener to generate button
-//generateBtn("generate").addEventListener("click", writePassword() {
-//  alert (password)
-//});
-//</script>
