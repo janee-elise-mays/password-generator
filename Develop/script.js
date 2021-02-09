@@ -1,6 +1,7 @@
 // Assignment Code
 var generateBtn = document.querySelector("generate");
 var passwordFiled = document.getElementById("password");
+var passwordLength = document.getElementById("passwordLength");
 
 
 // Write password to the #password input
@@ -10,7 +11,7 @@ function writePassword() {
   var str = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ' +  
                     'abcdefghijklmnopqrstuvwxyz0123456789@#$'; 
               
-            for (i = 1; i <= 8; i++) { 
+            for (i = 1; i <= passwordLength.value; i++) { 
                 var char = Math.floor(Math.random() 
                             * str.length + 1); 
                   
