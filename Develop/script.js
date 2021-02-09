@@ -27,4 +27,4 @@ function writePassword() {
 //generateBtn("generate").addEventListener("click", writePassword() {
 //  alert (password)
 //});
-</script>
+//</script>
