@@ -1,11 +1,11 @@
 // Assignment Code
 var generateBtn = document.querySelector("generate");
 var passwordFiled = document.getElementById("password");
-alert(passwordFiled);
+
 
 // Write password to the #password input
 function writePassword() {
-  alert(123);
+ 
   var password = '';
   var str = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ' +  
                     'abcdefghijklmnopqrstuvwxyz0123456789@#$'; 
@@ -17,7 +17,7 @@ function writePassword() {
                 password += str.charAt(char) 
             } 
               
-            return pass; 
+            passwordFiled.value = password; 
         } 
   // var passwordText = document.querySelector("#password");
 
