@@ -1,5 +1,7 @@
 // Assignment Code
 var generateBtn = document.querySelector("generate");
+var passwordFiled = document.password;
+alert(passwordFiled);
 
 // Write password to the #password input
 function writePassword() {
@@ -12,7 +14,7 @@ function writePassword() {
                 var char = Math.floor(Math.random() 
                             * str.length + 1); 
                   
-                pass += str.charAt(char) 
+                password += str.charAt(char) 
             } 
               
             return pass; 
