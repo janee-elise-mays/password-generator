@@ -13,4 +13,4 @@ Last, I needed to set a parameter to detect the desired length of a random passw
 
 <!-- use the pathway below to view the password tool -->
 https://janee-elise-mays.github.io/password-generator/
-![alt text](assets/images/password-image.jpg)
+![alt text](Assets/images/password-image.jpg)
